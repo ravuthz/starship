@@ -25,6 +25,7 @@ $docker_context\
 [](fg:#06969A bg:#33658A)\
 $time\
 $line_break\
+$character
 [ ](fg:#33658A)\
 """
 
@@ -146,3 +147,7 @@ format = '[ ♥ $time ]($style)'
 
 [line_break]
 disabled = false
+
+[character]
+error_symbol = '[៛​​​​​✗](bold red)'
+success_symbol = '[៛➜](bold green)'
