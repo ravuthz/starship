@@ -2,17 +2,17 @@
 
 Custom presets
 
-[tokyo-night.toml](./tokyo-night.toml)
+[tokyo-night.toml](./presets/tokyo-night.toml)
 ```bash
 curl -fsSL "https://raw.githubusercontent.com/ravuthz/starship/refs/heads/master/presets/tokyo-night.toml" -o ~/.config/starship.toml
 ```
 
-[pastel-powerline.toml](./pastel-powerline.toml)
+[pastel-powerline.toml](./presets/pastel-powerline.toml)
 ```bash
 curl -fsSL "https://raw.githubusercontent.com/ravuthz/starship/refs/heads/master/presets/pastel-powerline.toml" -o ~/.config/starship.toml
 ```
 
-[gruvbox-rainbow.toml](./gruvbox-rainbow.toml)
+[gruvbox-rainbow.toml](./presets/gruvbox-rainbow.toml)
 ```bash
 curl -fsSL "https://raw.githubusercontent.com/ravuthz/starship/refs/heads/master/presets/gruvbox-rainbow.toml" -o ~/.config/starship.toml
 ```
