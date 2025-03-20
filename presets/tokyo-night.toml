@@ -67,3 +67,8 @@ format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)'
 disabled = false
 error_symbol = '[៛​​​​​✗](bold red)'
 success_symbol = '[៛➜](bold green)'
+
+[python]
+format = 'via [${symbol}(${version} )(\($virtualenv\) )]($style)'
+symbol = " "
+style = "bold #f3e10b"
