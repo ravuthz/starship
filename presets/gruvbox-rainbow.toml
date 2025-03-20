@@ -167,3 +167,8 @@ vimcmd_symbol = '[](bold fg:color_green)'
 vimcmd_replace_one_symbol = '[](bold fg:color_purple)'
 vimcmd_replace_symbol = '[](bold fg:color_purple)'
 vimcmd_visual_symbol = '[](bold fg:color_yellow)'
+
+[python]
+format = 'via [${symbol}(${version} )(\($virtualenv\) )]($style)'
+symbol = " "
+style = "bold #f3e10b"
