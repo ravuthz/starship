@@ -139,7 +139,9 @@ format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 [python]
 symbol = ""
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+# format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = ' [${symbol}(${version} )(\($virtualenv\) )]($style)'
+
 
 [docker_context]
 symbol = ""
@@ -167,8 +169,3 @@ vimcmd_symbol = '[](bold fg:color_green)'
 vimcmd_replace_one_symbol = '[](bold fg:color_purple)'
 vimcmd_replace_symbol = '[](bold fg:color_purple)'
 vimcmd_visual_symbol = '[](bold fg:color_yellow)'
-
-[python]
-format = 'via [${symbol}(${version} )(\($virtualenv\) )]($style)'
-symbol = " "
-style = "bold #f3e10b"
